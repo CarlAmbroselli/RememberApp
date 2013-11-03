@@ -7,6 +7,7 @@
 //
 
 #import "CMImageCell.h"
+#import "Media.h"
 
 @implementation CMImageCell
 
@@ -17,6 +18,12 @@
         // Initialization code
     }
     return self;
+}
+
+-(void)setPost:(Post *)post
+{
+    [super setPost:post];
+    self.mainImageView.image = [UIImage imageNamed:((Media *)[[post.media allObjects] firstObject]).fileName];
 }
 
 /*

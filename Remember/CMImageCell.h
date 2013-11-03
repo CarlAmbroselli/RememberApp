@@ -9,6 +9,8 @@
 #import "CMRememberCell.h"
 
 @interface CMImageCell : CMRememberCell
-@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+
+@property (weak, nonatomic) IBOutlet UIImageView *mainImageView;
+
 
 @end

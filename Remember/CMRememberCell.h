@@ -12,7 +12,6 @@
 @interface CMRememberCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 @property (weak, nonatomic) IBOutlet UIImageView *yearIcon;
-@property (weak, nonatomic) IBOutlet UIImageView *mainImageView;
 
 @property (strong, nonatomic) Post *post;
 

@@ -11,6 +11,6 @@
 @interface CMSoundCell : CMRememberCell
 @property (weak, nonatomic) IBOutlet UIButton *soundButton;
 - (IBAction)soundButtonPressed:(UIButton *)sender;
-@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (weak, nonatomic) IBOutlet UIImageView *mainImageView;
 
 @end

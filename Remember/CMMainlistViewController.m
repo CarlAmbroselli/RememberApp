@@ -99,7 +99,7 @@
             cell = [[CMCustomCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
         }
     } else {
-        static NSString *CellIdentifier = @"imageCell";
+        NSString *CellIdentifier = @"imageCell";
         cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
         if (cell == nil) {
             cell = [[CMImageCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
