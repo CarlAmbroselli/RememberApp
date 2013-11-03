@@ -294,9 +294,9 @@
                                 @"type" : @"image",
                                 @"locationLat" : @0.0f,
                                 @"locationLong" : @0.0f,
-                                @"headline" : @"Tamagotchi"};
+                                @"headline" : @"Ninja Turtles"};
     
-    NSDictionary *media9Dict = @{@"fileName": @"ninjaTurtles_1984.jpg",
+    NSDictionary *media9Dict = @{@"fileName": @"ninjaTutles_1984.jpg",
                                  @"mediaId" : @9 };
     
     Post *post9 = [Post postWithDict:post9Dict inManagedObjectContext:[self managedObjectContext]];
@@ -326,27 +326,27 @@
     [post10 addMediaObject:media10];
     [post10 addMediaObject:media101];
     
-    NSDictionary *post11Dict = @{@"postId": @11,
-                                 @"range" : @"everyone",
-                                 @"year" : @"1999",
-                                 @"isLiked" : @NO,
-                                 @"type" : @"sound",
-                                 @"locationLat" : @0.0f,
-                                 @"locationLong" : @0.0f,
-                                 @"headline" : @"Star Wars"};
-    
-    NSDictionary *media11Dict = @{@"fileName": @"starwars_theme_1999.mp3",
-                                  @"mediaId" : @11 };
-    
-    NSDictionary *media11Dict1 = @{@"fileName": @"todesstern_1999.gif",
-                                   @"mediaId" : @111 };
-    
-    Post *post11 = [Post postWithDict:post11Dict inManagedObjectContext:[self managedObjectContext]];
-    Media *media11 = [Media mediaWithDict:media11Dict inManagedObjectContext:[self managedObjectContext]];
-    Media *media111 = [Media mediaWithDict:media11Dict1 inManagedObjectContext:[self managedObjectContext]];
-    
-    [post11 addMediaObject:media11];
-    [post11 addMediaObject:media111];
+//    NSDictionary *post11Dict = @{@"postId": @11,
+//                                 @"range" : @"everyone",
+//                                 @"year" : @"1999",
+//                                 @"isLiked" : @NO,
+//                                 @"type" : @"sound",
+//                                 @"locationLat" : @52.512594f,
+//                                 @"locationLong" : @13.431108f,
+//                                 @"headline" : @"DevFest 2013"};
+//    
+//    NSDictionary *media11Dict = @{@"fileName": @"starwars_theme_1999.mp3",
+//                                  @"mediaId" : @11 };
+//    
+//    NSDictionary *media11Dict1 = @{@"fileName": @"todesstern_1999.gif",
+//                                   @"mediaId" : @111 };
+//    
+//    Post *post11 = [Post postWithDict:post11Dict inManagedObjectContext:[self managedObjectContext]];
+//    Media *media11 = [Media mediaWithDict:media11Dict inManagedObjectContext:[self managedObjectContext]];
+//    Media *media111 = [Media mediaWithDict:media11Dict1 inManagedObjectContext:[self managedObjectContext]];
+//    
+//    [post11 addMediaObject:media11];
+//    [post11 addMediaObject:media111];
     
 }
 
