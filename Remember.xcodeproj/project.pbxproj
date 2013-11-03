@@ -22,6 +22,26 @@
 		6A2B5402182653CD00B6BB56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A2B53E1182653CD00B6BB56 /* UIKit.framework */; };
 		6A2B540A182653CD00B6BB56 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B5408182653CD00B6BB56 /* InfoPlist.strings */; };
 		6A2B540C182653CD00B6BB56 /* RememberTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B540B182653CD00B6BB56 /* RememberTests.m */; };
+		6A2B542A1826621100B6BB56 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B54161826621100B6BB56 /* Background.png */; };
+		6A2B542B1826621100B6BB56 /* Background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B54171826621100B6BB56 /* Background@2x.png */; };
+		6A2B542C1826621100B6BB56 /* HeadBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B54181826621100B6BB56 /* HeadBox.png */; };
+		6A2B542D1826621100B6BB56 /* HeadBox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B54191826621100B6BB56 /* HeadBox@2x.png */; };
+		6A2B542E1826621100B6BB56 /* LikeButtonBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B541A1826621100B6BB56 /* LikeButtonBackground.png */; };
+		6A2B542F1826621100B6BB56 /* LikeButtonBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B541B1826621100B6BB56 /* LikeButtonBackground@2x.png */; };
+		6A2B54301826621100B6BB56 /* LikeButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B541C1826621100B6BB56 /* LikeButtonPressed.png */; };
+		6A2B54311826621100B6BB56 /* LikeButtonPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B541D1826621100B6BB56 /* LikeButtonPressed@2x.png */; };
+		6A2B54321826621100B6BB56 /* LikeButtonUnpressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B541E1826621100B6BB56 /* LikeButtonUnpressed.png */; };
+		6A2B54331826621100B6BB56 /* LikeButtonUnpressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B541F1826621100B6BB56 /* LikeButtonUnpressed@2x.png */; };
+		6A2B54341826621100B6BB56 /* ListBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B54201826621100B6BB56 /* ListBackground.png */; };
+		6A2B54351826621100B6BB56 /* ListBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B54211826621100B6BB56 /* ListBackground@2x.png */; };
+		6A2B54361826621100B6BB56 /* PlayIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B54221826621100B6BB56 /* PlayIcon.png */; };
+		6A2B54371826621100B6BB56 /* PlayIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B54231826621100B6BB56 /* PlayIcon@2x.png */; };
+		6A2B54381826621100B6BB56 /* PokemonFightHeadline.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B54241826621100B6BB56 /* PokemonFightHeadline.png */; };
+		6A2B54391826621100B6BB56 /* PokemonFightHeadline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B54251826621100B6BB56 /* PokemonFightHeadline@2x.png */; };
+		6A2B543A1826621100B6BB56 /* PokemonScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B54261826621100B6BB56 /* PokemonScreen.png */; };
+		6A2B543B1826621100B6BB56 /* PokemonScreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B54271826621100B6BB56 /* PokemonScreen@2x.png */; };
+		6A2B543C1826621100B6BB56 /* YearIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B54281826621100B6BB56 /* YearIcon.png */; };
+		6A2B543D1826621100B6BB56 /* YearIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B54291826621100B6BB56 /* YearIcon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +76,26 @@
 		6A2B5407182653CD00B6BB56 /* RememberTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RememberTests-Info.plist"; sourceTree = "<group>"; };
 		6A2B5409182653CD00B6BB56 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A2B540B182653CD00B6BB56 /* RememberTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RememberTests.m; sourceTree = "<group>"; };
+		6A2B54161826621100B6BB56 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		6A2B54171826621100B6BB56 /* Background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background@2x.png"; sourceTree = "<group>"; };
+		6A2B54181826621100B6BB56 /* HeadBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HeadBox.png; sourceTree = "<group>"; };
+		6A2B54191826621100B6BB56 /* HeadBox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HeadBox@2x.png"; sourceTree = "<group>"; };
+		6A2B541A1826621100B6BB56 /* LikeButtonBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LikeButtonBackground.png; sourceTree = "<group>"; };
+		6A2B541B1826621100B6BB56 /* LikeButtonBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LikeButtonBackground@2x.png"; sourceTree = "<group>"; };
+		6A2B541C1826621100B6BB56 /* LikeButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LikeButtonPressed.png; sourceTree = "<group>"; };
+		6A2B541D1826621100B6BB56 /* LikeButtonPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LikeButtonPressed@2x.png"; sourceTree = "<group>"; };
+		6A2B541E1826621100B6BB56 /* LikeButtonUnpressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LikeButtonUnpressed.png; sourceTree = "<group>"; };
+		6A2B541F1826621100B6BB56 /* LikeButtonUnpressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LikeButtonUnpressed@2x.png"; sourceTree = "<group>"; };
+		6A2B54201826621100B6BB56 /* ListBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ListBackground.png; sourceTree = "<group>"; };
+		6A2B54211826621100B6BB56 /* ListBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ListBackground@2x.png"; sourceTree = "<group>"; };
+		6A2B54221826621100B6BB56 /* PlayIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayIcon.png; sourceTree = "<group>"; };
+		6A2B54231826621100B6BB56 /* PlayIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PlayIcon@2x.png"; sourceTree = "<group>"; };
+		6A2B54241826621100B6BB56 /* PokemonFightHeadline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PokemonFightHeadline.png; sourceTree = "<group>"; };
+		6A2B54251826621100B6BB56 /* PokemonFightHeadline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PokemonFightHeadline@2x.png"; sourceTree = "<group>"; };
+		6A2B54261826621100B6BB56 /* PokemonScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PokemonScreen.png; sourceTree = "<group>"; };
+		6A2B54271826621100B6BB56 /* PokemonScreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PokemonScreen@2x.png"; sourceTree = "<group>"; };
+		6A2B54281826621100B6BB56 /* YearIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YearIcon.png; sourceTree = "<group>"; };
+		6A2B54291826621100B6BB56 /* YearIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "YearIcon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +171,7 @@
 		6A2B53E4182653CD00B6BB56 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6A2B54151826620600B6BB56 /* Graphics */,
 				6A2B53E5182653CD00B6BB56 /* Remember-Info.plist */,
 				6A2B53E6182653CD00B6BB56 /* InfoPlist.strings */,
 				6A2B53E9182653CD00B6BB56 /* main.m */,
@@ -155,6 +196,33 @@
 				6A2B5408182653CD00B6BB56 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A2B54151826620600B6BB56 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				6A2B54161826621100B6BB56 /* Background.png */,
+				6A2B54171826621100B6BB56 /* Background@2x.png */,
+				6A2B54181826621100B6BB56 /* HeadBox.png */,
+				6A2B54191826621100B6BB56 /* HeadBox@2x.png */,
+				6A2B541A1826621100B6BB56 /* LikeButtonBackground.png */,
+				6A2B541B1826621100B6BB56 /* LikeButtonBackground@2x.png */,
+				6A2B541C1826621100B6BB56 /* LikeButtonPressed.png */,
+				6A2B541D1826621100B6BB56 /* LikeButtonPressed@2x.png */,
+				6A2B541E1826621100B6BB56 /* LikeButtonUnpressed.png */,
+				6A2B541F1826621100B6BB56 /* LikeButtonUnpressed@2x.png */,
+				6A2B54201826621100B6BB56 /* ListBackground.png */,
+				6A2B54211826621100B6BB56 /* ListBackground@2x.png */,
+				6A2B54221826621100B6BB56 /* PlayIcon.png */,
+				6A2B54231826621100B6BB56 /* PlayIcon@2x.png */,
+				6A2B54241826621100B6BB56 /* PokemonFightHeadline.png */,
+				6A2B54251826621100B6BB56 /* PokemonFightHeadline@2x.png */,
+				6A2B54261826621100B6BB56 /* PokemonScreen.png */,
+				6A2B54271826621100B6BB56 /* PokemonScreen@2x.png */,
+				6A2B54281826621100B6BB56 /* YearIcon.png */,
+				6A2B54291826621100B6BB56 /* YearIcon@2x.png */,
+			);
+			name = Graphics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,8 +303,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A2B53F9182653CD00B6BB56 /* Images.xcassets in Resources */,
+				6A2B543A1826621100B6BB56 /* PokemonScreen.png in Resources */,
+				6A2B543B1826621100B6BB56 /* PokemonScreen@2x.png in Resources */,
+				6A2B542A1826621100B6BB56 /* Background.png in Resources */,
+				6A2B54381826621100B6BB56 /* PokemonFightHeadline.png in Resources */,
+				6A2B54371826621100B6BB56 /* PlayIcon@2x.png in Resources */,
 				6A2B53E8182653CD00B6BB56 /* InfoPlist.strings in Resources */,
+				6A2B542D1826621100B6BB56 /* HeadBox@2x.png in Resources */,
+				6A2B54331826621100B6BB56 /* LikeButtonUnpressed@2x.png in Resources */,
+				6A2B54341826621100B6BB56 /* ListBackground.png in Resources */,
+				6A2B54321826621100B6BB56 /* LikeButtonUnpressed.png in Resources */,
+				6A2B542E1826621100B6BB56 /* LikeButtonBackground.png in Resources */,
+				6A2B542C1826621100B6BB56 /* HeadBox.png in Resources */,
+				6A2B54311826621100B6BB56 /* LikeButtonPressed@2x.png in Resources */,
+				6A2B542B1826621100B6BB56 /* Background@2x.png in Resources */,
+				6A2B543C1826621100B6BB56 /* YearIcon.png in Resources */,
+				6A2B54301826621100B6BB56 /* LikeButtonPressed.png in Resources */,
 				6A2B53F1182653CD00B6BB56 /* Main.storyboard in Resources */,
+				6A2B54391826621100B6BB56 /* PokemonFightHeadline@2x.png in Resources */,
+				6A2B543D1826621100B6BB56 /* YearIcon@2x.png in Resources */,
+				6A2B54351826621100B6BB56 /* ListBackground@2x.png in Resources */,
+				6A2B54361826621100B6BB56 /* PlayIcon.png in Resources */,
+				6A2B542F1826621100B6BB56 /* LikeButtonBackground@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
