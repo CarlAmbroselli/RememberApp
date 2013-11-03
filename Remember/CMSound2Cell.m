@@ -7,6 +7,8 @@
 //
 
 #import "CMSound2Cell.h"
+#import "Media.h"
+#import "SoundManager.h"
 
 @implementation CMSound2Cell
 
@@ -29,5 +31,13 @@
 */
 
 - (IBAction)playButtonPressed:(id)sender {
+    [[SoundManager sharedManager] playMusic:((Media *)[[[self.post.media allObjects] filteredArrayUsingPredicate:[NSPredicate predicateWithFormat:@"mediaType == %@", @"music"]] lastObject]).fileName looping:YES];
+}
+
+-(void)setPost:(Post *)post
+{
+    [super setPost:post];
+    self.leftImageView.image = [UIImage imageNamed:((Media *)[[[post.media allObjects] filteredArrayUsingPredicate:[NSPredicate predicateWithFormat:@"mediaType == %@", @"image"]]firstObject]).fileName];
+    self.rightImageView.image = [UIImage imageNamed:((Media *)[[[post.media allObjects] filteredArrayUsingPredicate:[NSPredicate predicateWithFormat:@"mediaType == %@", @"image"]] lastObject]).fileName];
 }
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "CMRememberCell.h"
+#import "SoundManager.h"
 
 @interface CMSoundCell : CMRememberCell
 @property (weak, nonatomic) IBOutlet UIButton *soundButton;

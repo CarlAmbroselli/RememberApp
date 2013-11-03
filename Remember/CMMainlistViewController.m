@@ -52,6 +52,9 @@
     [self hideTabBar:self.tabBarController];
     self.managedObjectContext = [[Database sharedInstance] managedObjectContext];
 //    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Background"]];
+    
+    [SoundManager sharedManager].allowsBackgroundMusic = YES;
+    [[SoundManager sharedManager] prepareToPlay];
 }
 
 - (void)didReceiveMemoryWarning

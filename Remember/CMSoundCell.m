@@ -7,6 +7,7 @@
 //
 
 #import "CMSoundCell.h"
+#import "Media.h"
 
 @implementation CMSoundCell
 
@@ -28,6 +29,14 @@
 }
 */
 
-- (IBAction)soundButtonPressed:(UIButton *)sender {
+-(void)setPost:(Post *)post
+{
+    [super setPost:post];
+    self.mainImageView.image = [UIImage imageNamed:((Media *)[[[post.media allObjects] filteredArrayUsingPredicate:[NSPredicate predicateWithFormat:@"mediaType == %@", @"image"]]firstObject]).fileName];
 }
+
+- (IBAction)playButtonPressed:(id)sender {
+    [[SoundManager sharedManager] playMusic:((Media *)[[[self.post.media allObjects] filteredArrayUsingPredicate:[NSPredicate predicateWithFormat:@"mediaType == %@", @"music"]] lastObject]).fileName looping:YES];
+}
+
 @end
