@@ -97,7 +97,6 @@
 		2869976A18267D4E002990A0 /* tetris_Gameboy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tetris_Gameboy.jpg; sourceTree = "<group>"; };
 		2869976C18267EAC002990A0 /* blue_eyes_white_dragon_1996.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blue_eyes_white_dragon_1996.jpg; sourceTree = "<group>"; };
 		2869976E18268064002990A0 /* Kraftwerk_Taschenrechner_1987.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Kraftwerk_Taschenrechner_1987.mp3; sourceTree = "<group>"; };
-<<<<<<< HEAD
 		286997701826839C002990A0 /* rubiks_cube_80er.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rubiks_cube_80er.jpg; sourceTree = "<group>"; };
 		2869977218268453002990A0 /* tamagotchi_90er.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tamagotchi_90er.jpeg; sourceTree = "<group>"; };
 		2869977418268A6C002990A0 /* ninjaTutles_1984.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ninjaTutles_1984.jpg; sourceTree = "<group>"; };
@@ -105,8 +104,6 @@
 		2869977818269201002990A0 /* starwars_theme_1999.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = starwars_theme_1999.mp3; sourceTree = "<group>"; };
 		2869977A18269219002990A0 /* todesstern_1999.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = todesstern_1999.gif; sourceTree = "<group>"; };
 		2869977C18269486002990A0 /* pokemonBattleSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pokemonBattleSound.mp3; sourceTree = "<group>"; };
-=======
->>>>>>> 887d89a3d937592f9305b8cfb452a3d77e538839
 		6A2B53DA182653CD00B6BB56 /* Remember.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Remember.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A2B53DD182653CD00B6BB56 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6A2B53DF182653CD00B6BB56 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -213,15 +210,14 @@
 		2869975F1826797C002990A0 /* Media */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
+
 				2869977C18269486002990A0 /* pokemonBattleSound.mp3 */,
 				2869977A18269219002990A0 /* todesstern_1999.gif */,
 				2869977818269201002990A0 /* starwars_theme_1999.mp3 */,
 				2869977618268E03002990A0 /* computerwelt_kraftwerk_1981.jpg */,
 				2869977418268A6C002990A0 /* ninjaTutles_1984.jpg */,
 				286997701826839C002990A0 /* rubiks_cube_80er.jpg */,
-=======
->>>>>>> 887d89a3d937592f9305b8cfb452a3d77e538839
+
 				2869976E18268064002990A0 /* Kraftwerk_Taschenrechner_1987.mp3 */,
 				2869976C18267EAC002990A0 /* blue_eyes_white_dragon_1996.jpg */,
 				2869976A18267D4E002990A0 /* tetris_Gameboy.jpg */,
