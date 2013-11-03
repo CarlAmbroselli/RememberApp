@@ -1,5 +1,5 @@
 //
-//  CMFirstViewController.h
+//  CMRememberCell.h
 //  Remember
 //
 //  Created by Carl Ambroselli on 03.11.13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CMFirstViewController : UIViewController
+@interface CMRememberCell : UITableViewCell
 
 @end

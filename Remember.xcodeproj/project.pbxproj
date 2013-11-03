@@ -14,7 +14,6 @@
 		6A2B53EA182653CD00B6BB56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B53E9182653CD00B6BB56 /* main.m */; };
 		6A2B53EE182653CD00B6BB56 /* CMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B53ED182653CD00B6BB56 /* CMAppDelegate.m */; };
 		6A2B53F1182653CD00B6BB56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B53EF182653CD00B6BB56 /* Main.storyboard */; };
-		6A2B53F4182653CD00B6BB56 /* CMFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B53F3182653CD00B6BB56 /* CMFirstViewController.m */; };
 		6A2B53F7182653CD00B6BB56 /* CMSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B53F6182653CD00B6BB56 /* CMSecondViewController.m */; };
 		6A2B53F9182653CD00B6BB56 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B53F8182653CD00B6BB56 /* Images.xcassets */; };
 		6A2B5400182653CD00B6BB56 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A2B53FF182653CD00B6BB56 /* XCTest.framework */; };
@@ -42,6 +41,22 @@
 		6A2B543B1826621100B6BB56 /* PokemonScreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B54271826621100B6BB56 /* PokemonScreen@2x.png */; };
 		6A2B543C1826621100B6BB56 /* YearIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B54281826621100B6BB56 /* YearIcon.png */; };
 		6A2B543D1826621100B6BB56 /* YearIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B54291826621100B6BB56 /* YearIcon@2x.png */; };
+		6A2B54401826633800B6BB56 /* CMMainlistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B543F1826633800B6BB56 /* CMMainlistViewController.m */; };
+		6A2B5443182664C500B6BB56 /* CMRememberCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B5442182664C500B6BB56 /* CMRememberCell.m */; };
+		6A2B544B18266B9900B6BB56 /* HeadBoxEveryone.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B544518266B9900B6BB56 /* HeadBoxEveryone.png */; };
+		6A2B544C18266B9900B6BB56 /* HeadBoxEveryone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B544618266B9900B6BB56 /* HeadBoxEveryone@2x.png */; };
+		6A2B544D18266B9900B6BB56 /* HeadBoxFriends.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B544718266B9900B6BB56 /* HeadBoxFriends.png */; };
+		6A2B544E18266B9900B6BB56 /* HeadBoxFriends@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B544818266B9900B6BB56 /* HeadBoxFriends@2x.png */; };
+		6A2B544F18266B9900B6BB56 /* HeadBoxYou.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B544918266B9900B6BB56 /* HeadBoxYou.png */; };
+		6A2B545018266B9900B6BB56 /* HeadBoxYou@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B544A18266B9900B6BB56 /* HeadBoxYou@2x.png */; };
+		6A2B545318266D4800B6BB56 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B545118266D4800B6BB56 /* Model.xcdatamodeld */; };
+		6A2B545618266D6C00B6BB56 /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B545518266D6C00B6BB56 /* Database.m */; };
+		6A2B545818266E6A00B6BB56 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A2B545718266E6A00B6BB56 /* AVFoundation.framework */; };
+		6A2B545C18266F5E00B6BB56 /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B545B18266F5E00B6BB56 /* SoundManager.m */; };
+		6A2B54601826734E00B6BB56 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B545F1826734E00B6BB56 /* Post.m */; };
+		6A2B54631826734E00B6BB56 /* Media.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B54621826734E00B6BB56 /* Media.m */; };
+		6A2B546D1826739D00B6BB56 /* Post+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B546C1826739D00B6BB56 /* Post+Create.m */; };
+		6A2B5470182674DE00B6BB56 /* Media+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B546F182674DE00B6BB56 /* Media+Create.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,8 +81,6 @@
 		6A2B53EC182653CD00B6BB56 /* CMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMAppDelegate.h; sourceTree = "<group>"; };
 		6A2B53ED182653CD00B6BB56 /* CMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMAppDelegate.m; sourceTree = "<group>"; };
 		6A2B53F0182653CD00B6BB56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6A2B53F2182653CD00B6BB56 /* CMFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMFirstViewController.h; sourceTree = "<group>"; };
-		6A2B53F3182653CD00B6BB56 /* CMFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMFirstViewController.m; sourceTree = "<group>"; };
 		6A2B53F5182653CD00B6BB56 /* CMSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMSecondViewController.h; sourceTree = "<group>"; };
 		6A2B53F6182653CD00B6BB56 /* CMSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMSecondViewController.m; sourceTree = "<group>"; };
 		6A2B53F8182653CD00B6BB56 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -96,6 +109,31 @@
 		6A2B54271826621100B6BB56 /* PokemonScreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PokemonScreen@2x.png"; sourceTree = "<group>"; };
 		6A2B54281826621100B6BB56 /* YearIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YearIcon.png; sourceTree = "<group>"; };
 		6A2B54291826621100B6BB56 /* YearIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "YearIcon@2x.png"; sourceTree = "<group>"; };
+		6A2B543E1826633800B6BB56 /* CMMainlistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMMainlistViewController.h; sourceTree = "<group>"; };
+		6A2B543F1826633800B6BB56 /* CMMainlistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMMainlistViewController.m; sourceTree = "<group>"; };
+		6A2B5441182664C500B6BB56 /* CMRememberCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMRememberCell.h; sourceTree = "<group>"; };
+		6A2B5442182664C500B6BB56 /* CMRememberCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMRememberCell.m; sourceTree = "<group>"; };
+		6A2B54441826673100B6BB56 /* Amplitude-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Amplitude-Medium.ttf"; sourceTree = "<group>"; };
+		6A2B544518266B9900B6BB56 /* HeadBoxEveryone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HeadBoxEveryone.png; sourceTree = "<group>"; };
+		6A2B544618266B9900B6BB56 /* HeadBoxEveryone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HeadBoxEveryone@2x.png"; sourceTree = "<group>"; };
+		6A2B544718266B9900B6BB56 /* HeadBoxFriends.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HeadBoxFriends.png; sourceTree = "<group>"; };
+		6A2B544818266B9900B6BB56 /* HeadBoxFriends@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HeadBoxFriends@2x.png"; sourceTree = "<group>"; };
+		6A2B544918266B9900B6BB56 /* HeadBoxYou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HeadBoxYou.png; sourceTree = "<group>"; };
+		6A2B544A18266B9900B6BB56 /* HeadBoxYou@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HeadBoxYou@2x.png"; sourceTree = "<group>"; };
+		6A2B545218266D4800B6BB56 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		6A2B545418266D6C00B6BB56 /* Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Database.h; sourceTree = "<group>"; };
+		6A2B545518266D6C00B6BB56 /* Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Database.m; sourceTree = "<group>"; };
+		6A2B545718266E6A00B6BB56 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6A2B545A18266F5E00B6BB56 /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
+		6A2B545B18266F5E00B6BB56 /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundManager.m; sourceTree = "<group>"; };
+		6A2B545E1826734E00B6BB56 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		6A2B545F1826734E00B6BB56 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		6A2B54611826734E00B6BB56 /* Media.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Media.h; sourceTree = "<group>"; };
+		6A2B54621826734E00B6BB56 /* Media.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Media.m; sourceTree = "<group>"; };
+		6A2B546B1826739D00B6BB56 /* Post+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Post+Create.h"; sourceTree = "<group>"; };
+		6A2B546C1826739D00B6BB56 /* Post+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Post+Create.m"; sourceTree = "<group>"; };
+		6A2B546E182674DE00B6BB56 /* Media+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Media+Create.h"; sourceTree = "<group>"; };
+		6A2B546F182674DE00B6BB56 /* Media+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Media+Create.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A2B545818266E6A00B6BB56 /* AVFoundation.framework in Frameworks */,
 				6A2B53E0182653CD00B6BB56 /* CoreGraphics.framework in Frameworks */,
 				6A2B53E2182653CD00B6BB56 /* UIKit.framework in Frameworks */,
 				6A2B53DE182653CD00B6BB56 /* Foundation.framework in Frameworks */,
@@ -144,6 +183,7 @@
 		6A2B53DC182653CD00B6BB56 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6A2B545718266E6A00B6BB56 /* AVFoundation.framework */,
 				6A2B53DD182653CD00B6BB56 /* Foundation.framework */,
 				6A2B53DF182653CD00B6BB56 /* CoreGraphics.framework */,
 				6A2B53E1182653CD00B6BB56 /* UIKit.framework */,
@@ -155,11 +195,17 @@
 		6A2B53E3182653CD00B6BB56 /* Remember */ = {
 			isa = PBXGroup;
 			children = (
+				6A2B545D1826733E00B6BB56 /* Model */,
+				6A2B545918266F5E00B6BB56 /* SoundManager */,
+				6A2B545418266D6C00B6BB56 /* Database.h */,
+				6A2B545518266D6C00B6BB56 /* Database.m */,
 				6A2B53EC182653CD00B6BB56 /* CMAppDelegate.h */,
 				6A2B53ED182653CD00B6BB56 /* CMAppDelegate.m */,
 				6A2B53EF182653CD00B6BB56 /* Main.storyboard */,
-				6A2B53F2182653CD00B6BB56 /* CMFirstViewController.h */,
-				6A2B53F3182653CD00B6BB56 /* CMFirstViewController.m */,
+				6A2B543E1826633800B6BB56 /* CMMainlistViewController.h */,
+				6A2B543F1826633800B6BB56 /* CMMainlistViewController.m */,
+				6A2B5441182664C500B6BB56 /* CMRememberCell.h */,
+				6A2B5442182664C500B6BB56 /* CMRememberCell.m */,
 				6A2B53F5182653CD00B6BB56 /* CMSecondViewController.h */,
 				6A2B53F6182653CD00B6BB56 /* CMSecondViewController.m */,
 				6A2B53F8182653CD00B6BB56 /* Images.xcassets */,
@@ -171,11 +217,13 @@
 		6A2B53E4182653CD00B6BB56 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6A2B54441826673100B6BB56 /* Amplitude-Medium.ttf */,
 				6A2B54151826620600B6BB56 /* Graphics */,
 				6A2B53E5182653CD00B6BB56 /* Remember-Info.plist */,
 				6A2B53E6182653CD00B6BB56 /* InfoPlist.strings */,
 				6A2B53E9182653CD00B6BB56 /* main.m */,
 				6A2B53EB182653CD00B6BB56 /* Remember-Prefix.pch */,
+				6A2B545118266D4800B6BB56 /* Model.xcdatamodeld */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -201,6 +249,12 @@
 		6A2B54151826620600B6BB56 /* Graphics */ = {
 			isa = PBXGroup;
 			children = (
+				6A2B544518266B9900B6BB56 /* HeadBoxEveryone.png */,
+				6A2B544618266B9900B6BB56 /* HeadBoxEveryone@2x.png */,
+				6A2B544718266B9900B6BB56 /* HeadBoxFriends.png */,
+				6A2B544818266B9900B6BB56 /* HeadBoxFriends@2x.png */,
+				6A2B544918266B9900B6BB56 /* HeadBoxYou.png */,
+				6A2B544A18266B9900B6BB56 /* HeadBoxYou@2x.png */,
 				6A2B54161826621100B6BB56 /* Background.png */,
 				6A2B54171826621100B6BB56 /* Background@2x.png */,
 				6A2B54181826621100B6BB56 /* HeadBox.png */,
@@ -223,6 +277,30 @@
 				6A2B54291826621100B6BB56 /* YearIcon@2x.png */,
 			);
 			name = Graphics;
+			sourceTree = "<group>";
+		};
+		6A2B545918266F5E00B6BB56 /* SoundManager */ = {
+			isa = PBXGroup;
+			children = (
+				6A2B545A18266F5E00B6BB56 /* SoundManager.h */,
+				6A2B545B18266F5E00B6BB56 /* SoundManager.m */,
+			);
+			path = SoundManager;
+			sourceTree = "<group>";
+		};
+		6A2B545D1826733E00B6BB56 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6A2B54611826734E00B6BB56 /* Media.h */,
+				6A2B54621826734E00B6BB56 /* Media.m */,
+				6A2B546E182674DE00B6BB56 /* Media+Create.h */,
+				6A2B546F182674DE00B6BB56 /* Media+Create.m */,
+				6A2B545E1826734E00B6BB56 /* Post.h */,
+				6A2B545F1826734E00B6BB56 /* Post.m */,
+				6A2B546B1826739D00B6BB56 /* Post+Create.h */,
+				6A2B546C1826739D00B6BB56 /* Post+Create.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,16 +387,22 @@
 				6A2B54381826621100B6BB56 /* PokemonFightHeadline.png in Resources */,
 				6A2B54371826621100B6BB56 /* PlayIcon@2x.png in Resources */,
 				6A2B53E8182653CD00B6BB56 /* InfoPlist.strings in Resources */,
+				6A2B544C18266B9900B6BB56 /* HeadBoxEveryone@2x.png in Resources */,
 				6A2B542D1826621100B6BB56 /* HeadBox@2x.png in Resources */,
 				6A2B54331826621100B6BB56 /* LikeButtonUnpressed@2x.png in Resources */,
 				6A2B54341826621100B6BB56 /* ListBackground.png in Resources */,
 				6A2B54321826621100B6BB56 /* LikeButtonUnpressed.png in Resources */,
+				6A2B544E18266B9900B6BB56 /* HeadBoxFriends@2x.png in Resources */,
 				6A2B542E1826621100B6BB56 /* LikeButtonBackground.png in Resources */,
 				6A2B542C1826621100B6BB56 /* HeadBox.png in Resources */,
 				6A2B54311826621100B6BB56 /* LikeButtonPressed@2x.png in Resources */,
+				6A2B544D18266B9900B6BB56 /* HeadBoxFriends.png in Resources */,
+				6A2B544B18266B9900B6BB56 /* HeadBoxEveryone.png in Resources */,
 				6A2B542B1826621100B6BB56 /* Background@2x.png in Resources */,
 				6A2B543C1826621100B6BB56 /* YearIcon.png in Resources */,
 				6A2B54301826621100B6BB56 /* LikeButtonPressed.png in Resources */,
+				6A2B545018266B9900B6BB56 /* HeadBoxYou@2x.png in Resources */,
+				6A2B544F18266B9900B6BB56 /* HeadBoxYou.png in Resources */,
 				6A2B53F1182653CD00B6BB56 /* Main.storyboard in Resources */,
 				6A2B54391826621100B6BB56 /* PokemonFightHeadline@2x.png in Resources */,
 				6A2B543D1826621100B6BB56 /* YearIcon@2x.png in Resources */,
@@ -343,10 +427,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A2B53F4182653CD00B6BB56 /* CMFirstViewController.m in Sources */,
+				6A2B5443182664C500B6BB56 /* CMRememberCell.m in Sources */,
+				6A2B54401826633800B6BB56 /* CMMainlistViewController.m in Sources */,
+				6A2B545618266D6C00B6BB56 /* Database.m in Sources */,
 				6A2B53EE182653CD00B6BB56 /* CMAppDelegate.m in Sources */,
+				6A2B54601826734E00B6BB56 /* Post.m in Sources */,
 				6A2B53F7182653CD00B6BB56 /* CMSecondViewController.m in Sources */,
+				6A2B546D1826739D00B6BB56 /* Post+Create.m in Sources */,
+				6A2B54631826734E00B6BB56 /* Media.m in Sources */,
+				6A2B545C18266F5E00B6BB56 /* SoundManager.m in Sources */,
 				6A2B53EA182653CD00B6BB56 /* main.m in Sources */,
+				6A2B5470182674DE00B6BB56 /* Media+Create.m in Sources */,
+				6A2B545318266D4800B6BB56 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,6 +657,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6A2B545118266D4800B6BB56 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6A2B545218266D4800B6BB56 /* Model.xcdatamodel */,
+			);
+			currentVersion = 6A2B545218266D4800B6BB56 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6A2B53D2182653CD00B6BB56 /* Project object */;
 }
