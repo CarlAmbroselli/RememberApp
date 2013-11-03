@@ -32,6 +32,7 @@
     }
     
     media.fileName = dict[@"fileName"];
+    media.mediaType = dict[@"mediaType"];
     
     return media;
 }

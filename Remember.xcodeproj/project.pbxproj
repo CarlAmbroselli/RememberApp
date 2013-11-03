@@ -64,6 +64,7 @@
 		6A2B54631826734E00B6BB56 /* Media.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B54621826734E00B6BB56 /* Media.m */; };
 		6A2B546D1826739D00B6BB56 /* Post+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B546C1826739D00B6BB56 /* Post+Create.m */; };
 		6A2B5470182674DE00B6BB56 /* Media+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B546F182674DE00B6BB56 /* Media+Create.m */; };
+		6A2B5479182679E300B6BB56 /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B5478182679E300B6BB56 /* CoreDataTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -148,6 +149,8 @@
 		6A2B546C1826739D00B6BB56 /* Post+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Post+Create.m"; sourceTree = "<group>"; };
 		6A2B546E182674DE00B6BB56 /* Media+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Media+Create.h"; sourceTree = "<group>"; };
 		6A2B546F182674DE00B6BB56 /* Media+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Media+Create.m"; sourceTree = "<group>"; };
+		6A2B5477182679E300B6BB56 /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		6A2B5478182679E300B6BB56 /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,6 +249,9 @@
 		6A2B53E4182653CD00B6BB56 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6A2B545D1826733E00B6BB56 /* Model */,
+				6A2B5477182679E300B6BB56 /* CoreDataTableViewController.h */,
+				6A2B5478182679E300B6BB56 /* CoreDataTableViewController.m */,
 				6A2B54441826673100B6BB56 /* Amplitude-Medium.ttf */,
 				6A2B54151826620600B6BB56 /* Graphics */,
 				6A2B53E5182653CD00B6BB56 /* Remember-Info.plist */,
@@ -471,6 +477,7 @@
 				6A2B53F7182653CD00B6BB56 /* CMSecondViewController.m in Sources */,
 				6A2B546D1826739D00B6BB56 /* Post+Create.m in Sources */,
 				6A2B54631826734E00B6BB56 /* Media.m in Sources */,
+				6A2B5479182679E300B6BB56 /* CoreDataTableViewController.m in Sources */,
 				6A2B545C18266F5E00B6BB56 /* SoundManager.m in Sources */,
 				6A2B53EA182653CD00B6BB56 /* main.m in Sources */,
 				6A2B5470182674DE00B6BB56 /* Media+Create.m in Sources */,

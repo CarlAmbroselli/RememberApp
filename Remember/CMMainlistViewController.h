@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CoreDataTableViewController.h"
 
-@interface CMMainlistViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@interface CMMainlistViewController : CoreDataTableViewController <UITableViewDataSource, UITableViewDelegate>
+
+@property (nonatomic, strong) NSManagedObjectContext *managedObjectContext;
 
 @end

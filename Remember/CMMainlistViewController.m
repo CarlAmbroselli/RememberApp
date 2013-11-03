@@ -18,6 +18,20 @@
 
 @implementation CMMainlistViewController
 
+- (void)setManagedObjectContext:(NSManagedObjectContext *)managedObjectContext
+{
+    _managedObjectContext = managedObjectContext;
+    if(managedObjectContext) {
+        NSFetchRequest *request = [NSFetchRequest fetchRequestWithEntityName:@"Post"];
+        request.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:@"id" ascending:NO]];
+        request.predicate = [NSPredicate predicateWithFormat:@"TRUEPREDICATE"];
+        
+        self.fetchedResultsController = [[NSFetchedResultsController alloc] initWithFetchRequest:request managedObjectContext:managedObjectContext sectionNameKeyPath:nil cacheName:nil]; // sectionNameKeyPath = KeyPath for the Section Names;
+    }else {
+        self.fetchedResultsController = nil;
+    }
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -30,7 +44,9 @@
     
     self.tableView.backgroundColor = [UIColor clearColor];
     self.tableView.separatorColor = [UIColor clearColor];
-    [[Database sharedInstance] managedObjectContext];
+    [self hideTabBar:self.tabBarController];
+    self.managedObjectContext = [[Database sharedInstance] managedObjectContext];
+//    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Background"]];
 }
 
 - (void)didReceiveMemoryWarning
@@ -41,18 +57,6 @@
 
 #pragma mark - Table view data source
 
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
-{
-    // Return the number of sections.
-    return 1;
-}
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
-{
-    // Return the number of rows in the section.
-    return 1;
-}
-
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"rememberCell";
@@ -61,7 +65,14 @@
         cell = [[CMRememberCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     
+    cell.post = [self.fetchedResultsController objectAtIndexPath:indexPath];
+    
     return cell;
+}
+
+-(float)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 296;
 }
 
 /*
@@ -115,14 +126,17 @@
 
  */
 - (IBAction)YouButtonPressed:(id)sender {
+    NSLog(@"Pressed You Button");
     [self.tabBarController setSelectedIndex:0];
 }
 
 - (IBAction)FriendsButtonPressed:(id)sender {
+    NSLog(@"Pressed Friends Button");
     [self.tabBarController setSelectedIndex:1];
 }
 
 - (IBAction)EveryoneButtonPressed:(id)sender {
+    NSLog(@"Pressed Everyone Button");
     [self.tabBarController setSelectedIndex:2];
 }
 
@@ -168,6 +182,12 @@
     [UIView commitAnimations];
 }
 
+- (IBAction)searchButtonPressed:(id)sender {
+    NSLog(@"Search Button Pressed");
+    [[Database sharedInstance] initializeSampleData];
+    [self.tableView reloadData];
+    NSLog(@"%u", [[self.fetchedResultsController sections] count]);
+}
 
 
 @end

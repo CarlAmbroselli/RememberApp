@@ -25,7 +25,7 @@
         //handle error
         NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
     } else if (![matches count]) {
-        post = [NSEntityDescription insertNewObjectForEntityForName:@"User" inManagedObjectContext:context];
+        post = [NSEntityDescription insertNewObjectForEntityForName:@"Post" inManagedObjectContext:context];
         post.id = dict[@"postId"];
     } else {
         post = [matches lastObject];

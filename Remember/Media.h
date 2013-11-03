@@ -13,7 +13,7 @@
 
 @interface Media : NSManagedObject
 
-@property (nonatomic, retain) NSNumber * fileName;
+@property (nonatomic, retain) NSString * fileName;
 @property (nonatomic, retain) NSString * mediaType;
 @property (nonatomic, retain) NSNumber * id;
 @property (nonatomic, retain) NSSet *post;
