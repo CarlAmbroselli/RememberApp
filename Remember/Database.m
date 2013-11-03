@@ -141,7 +141,8 @@
                               @"headline" : @"Pokemon Fight Sound"};
     
     NSDictionary *mediaOneDict = @{@"fileName": @"pokemonBattleSound.mp3",
-                               @"mediaId" : @1 };
+                               @"mediaId" : @1,
+                                   @"mediaType" : @"music"};
     
     Post *postOne = [Post postWithDict:postOneDict inManagedObjectContext:[self managedObjectContext]];
     Media *mediaOne = [Media mediaWithDict:mediaOneDict inManagedObjectContext:[self managedObjectContext]];
@@ -158,7 +159,8 @@
                                   @"headline" : @"The Firestone Family"};
     
     NSDictionary *mediaTwoDict = @{@"fileName": @"firestone_intro_80er_90er.mp4",
-                                   @"mediaId" : @1 };
+                                   @"mediaId" : @2,
+                                   @"mediaType" : @"video"};
     
     Post *postTwo = [Post postWithDict:postTwoDict inManagedObjectContext:[self managedObjectContext]];
     Media *mediaTwo = [Media mediaWithDict:mediaTwoDict inManagedObjectContext:[self managedObjectContext]];
@@ -177,7 +179,8 @@
                                 };
     
     NSDictionary *mediaThreeDict = @{@"fileName": @"furby_1998.jpg",
-                                   @"mediaId" : @3 };
+                                     @"mediaId" : @3,
+                                     @"mediaType" : @"image"};
     
     Post *postThree = [Post postWithDict:postThreeDict inManagedObjectContext:[self managedObjectContext]];
     Media *mediaThree = [Media mediaWithDict:mediaThreeDict inManagedObjectContext:[self managedObjectContext]];
@@ -195,13 +198,16 @@
                                     };
     
     NSDictionary *media4Dict = @{@"fileName": @"tetris_Gameboy.jpg",
-                                     @"mediaId" : @4 };
+                                 @"mediaId" : @4,
+                                 @"mediaType" : @"image"};
     
     NSDictionary *media4Dict2 = @{@"fileName": @"original_tetris.jpg",
-                                 @"mediaId" : @42 };
+                                  @"mediaId" : @42 ,
+                                  @"mediaType" : @"image"};
     
     NSDictionary *media4Dict3 = @{@"fileName": @"tetris_sound_1984.mp3",
-                                 @"mediaId" : @43 };
+                                  @"mediaId" : @43,
+                                  @"mediaType" : @"music"};
     
     Post *post4 = [Post postWithDict:post4Dict inManagedObjectContext:[self managedObjectContext]];
     Media *media4 = [Media mediaWithDict:media4Dict inManagedObjectContext:[self managedObjectContext]];
@@ -223,7 +229,8 @@
                                 @"contentText" : @"The legendary blue eyes white dragon"};
     
     NSDictionary *media5Dict = @{@"fileName": @"blue_eyes_white_dragon_1996.jpg",
-                                   @"mediaId" : @5 };
+                                 @"mediaId" : @5,
+                                 @"mediaType" : @"image"};
     
     Post *post5 = [Post postWithDict:post5Dict inManagedObjectContext:[self managedObjectContext]];
     Media *media5 = [Media mediaWithDict:media5Dict inManagedObjectContext:[self managedObjectContext]];
@@ -240,10 +247,12 @@
                                 @"headline" : @"Kraftwerk - Taschenrechner"};
     
     NSDictionary *media6Dict1 = @{@"fileName": @"computerwelt_kraftwerk_1981.jpg",
-                                 @"mediaId" : @61 };
+                                  @"mediaId" : @61,
+                                  @"mediaType" : @"image"};
     
     NSDictionary *media6Dict = @{@"fileName": @"Kraftwerk_Taschenrechner_1987.mp3",
-                                 @"mediaId" : @6 };
+                                 @"mediaId" : @6,
+                                 @"mediaType" : @"music"};
     
     Post *post6 = [Post postWithDict:post6Dict inManagedObjectContext:[self managedObjectContext]];
     Media *media6 = [Media mediaWithDict:media6Dict inManagedObjectContext:[self managedObjectContext]];
@@ -263,7 +272,8 @@
                                 @"contentText" : @"Spending hours and hours on it..."};
     
     NSDictionary *media7Dict = @{@"fileName": @"rubiks_cube_80er.jpg",
-                                 @"mediaId" : @7 };
+                                 @"mediaId" : @7,
+                                 @"mediaType" : @"image"};
     
     Post *post7 = [Post postWithDict:post7Dict inManagedObjectContext:[self managedObjectContext]];
     Media *media7 = [Media mediaWithDict:media7Dict inManagedObjectContext:[self managedObjectContext]];
@@ -280,7 +290,8 @@
                                 @"headline" : @"Tamagotchi"};
     
     NSDictionary *media8Dict = @{@"fileName": @"tamagotchi_90er.jpeg",
-                                 @"mediaId" : @8 };
+                                 @"mediaId" : @8,
+                                 @"mediaType" : @"image"};
     
     Post *post8 = [Post postWithDict:post8Dict inManagedObjectContext:[self managedObjectContext]];
     Media *media8 = [Media mediaWithDict:media8Dict inManagedObjectContext:[self managedObjectContext]];
@@ -297,7 +308,8 @@
                                 @"headline" : @"Ninja Turtles"};
     
     NSDictionary *media9Dict = @{@"fileName": @"ninjaTutles_1984.jpg",
-                                 @"mediaId" : @9 };
+                                 @"mediaId" : @9,
+                                 @"mediaType" : @"image"};
     
     Post *post9 = [Post postWithDict:post9Dict inManagedObjectContext:[self managedObjectContext]];
     Media *media9 = [Media mediaWithDict:media9Dict inManagedObjectContext:[self managedObjectContext]];
@@ -314,10 +326,12 @@
                                 @"headline" : @"Star Wars"};
     
     NSDictionary *media10Dict = @{@"fileName": @"starwars_theme_1999.mp3",
-                                 @"mediaId" : @10 };
+                                  @"mediaId" : @10,
+                                  @"mediaType" : @"music"};
     
     NSDictionary *media10Dict1 = @{@"fileName": @"todesstern_1999.gif",
-                                  @"mediaId" : @101 };
+                                   @"mediaId" : @101 ,
+                                   @"mediaType" : @"image"};
     
     Post *post10 = [Post postWithDict:post10Dict inManagedObjectContext:[self managedObjectContext]];
     Media *media10 = [Media mediaWithDict:media10Dict inManagedObjectContext:[self managedObjectContext]];
