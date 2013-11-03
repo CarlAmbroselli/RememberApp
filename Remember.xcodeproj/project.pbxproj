@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2869976318267B63002990A0 /* firestone_intro_80er_90er.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2869976218267B63002990A0 /* firestone_intro_80er_90er.mp4 */; };
+		2869976518267C61002990A0 /* furby_1998.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2869976418267C61002990A0 /* furby_1998.jpg */; };
+		2869976718267D2F002990A0 /* tetris_sound_1984.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2869976618267D2F002990A0 /* tetris_sound_1984.mp3 */; };
+		2869976918267D46002990A0 /* original_tetris.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2869976818267D46002990A0 /* original_tetris.jpg */; };
+		2869976B18267D4E002990A0 /* tetris_Gameboy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2869976A18267D4E002990A0 /* tetris_Gameboy.jpg */; };
+		2869976D18267EAC002990A0 /* blue_eyes_white_dragon_1996.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2869976C18267EAC002990A0 /* blue_eyes_white_dragon_1996.jpg */; };
+		2869976F18268064002990A0 /* Kraftwerk_Taschenrechner_1987.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2869976E18268064002990A0 /* Kraftwerk_Taschenrechner_1987.mp3 */; };
 		6A2B53DE182653CD00B6BB56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A2B53DD182653CD00B6BB56 /* Foundation.framework */; };
 		6A2B53E0182653CD00B6BB56 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A2B53DF182653CD00B6BB56 /* CoreGraphics.framework */; };
 		6A2B53E2182653CD00B6BB56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A2B53E1182653CD00B6BB56 /* UIKit.framework */; };
@@ -70,6 +77,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2869976218267B63002990A0 /* firestone_intro_80er_90er.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = firestone_intro_80er_90er.mp4; sourceTree = "<group>"; };
+		2869976418267C61002990A0 /* furby_1998.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = furby_1998.jpg; sourceTree = "<group>"; };
+		2869976618267D2F002990A0 /* tetris_sound_1984.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tetris_sound_1984.mp3; sourceTree = "<group>"; };
+		2869976818267D46002990A0 /* original_tetris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = original_tetris.jpg; sourceTree = "<group>"; };
+		2869976A18267D4E002990A0 /* tetris_Gameboy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tetris_Gameboy.jpg; sourceTree = "<group>"; };
+		2869976C18267EAC002990A0 /* blue_eyes_white_dragon_1996.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blue_eyes_white_dragon_1996.jpg; sourceTree = "<group>"; };
+		2869976E18268064002990A0 /* Kraftwerk_Taschenrechner_1987.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Kraftwerk_Taschenrechner_1987.mp3; sourceTree = "<group>"; };
 		6A2B53DA182653CD00B6BB56 /* Remember.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Remember.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A2B53DD182653CD00B6BB56 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6A2B53DF182653CD00B6BB56 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -161,6 +175,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2869975F1826797C002990A0 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				2869976E18268064002990A0 /* Kraftwerk_Taschenrechner_1987.mp3 */,
+				2869976C18267EAC002990A0 /* blue_eyes_white_dragon_1996.jpg */,
+				2869976A18267D4E002990A0 /* tetris_Gameboy.jpg */,
+				2869976818267D46002990A0 /* original_tetris.jpg */,
+				2869976618267D2F002990A0 /* tetris_sound_1984.mp3 */,
+				2869976418267C61002990A0 /* furby_1998.jpg */,
+				2869976218267B63002990A0 /* firestone_intro_80er_90er.mp4 */,
+			);
+			name = Media;
+			sourceTree = "<group>";
+		};
 		6A2B53D1182653CD00B6BB56 = {
 			isa = PBXGroup;
 			children = (
@@ -195,6 +223,7 @@
 		6A2B53E3182653CD00B6BB56 /* Remember */ = {
 			isa = PBXGroup;
 			children = (
+				2869975F1826797C002990A0 /* Media */,
 				6A2B545D1826733E00B6BB56 /* Model */,
 				6A2B545918266F5E00B6BB56 /* SoundManager */,
 				6A2B545418266D6C00B6BB56 /* Database.h */,
@@ -391,6 +420,8 @@
 				6A2B542D1826621100B6BB56 /* HeadBox@2x.png in Resources */,
 				6A2B54331826621100B6BB56 /* LikeButtonUnpressed@2x.png in Resources */,
 				6A2B54341826621100B6BB56 /* ListBackground.png in Resources */,
+				2869976718267D2F002990A0 /* tetris_sound_1984.mp3 in Resources */,
+				2869976F18268064002990A0 /* Kraftwerk_Taschenrechner_1987.mp3 in Resources */,
 				6A2B54321826621100B6BB56 /* LikeButtonUnpressed.png in Resources */,
 				6A2B544E18266B9900B6BB56 /* HeadBoxFriends@2x.png in Resources */,
 				6A2B542E1826621100B6BB56 /* LikeButtonBackground.png in Resources */,
@@ -399,16 +430,21 @@
 				6A2B544D18266B9900B6BB56 /* HeadBoxFriends.png in Resources */,
 				6A2B544B18266B9900B6BB56 /* HeadBoxEveryone.png in Resources */,
 				6A2B542B1826621100B6BB56 /* Background@2x.png in Resources */,
+				2869976D18267EAC002990A0 /* blue_eyes_white_dragon_1996.jpg in Resources */,
 				6A2B543C1826621100B6BB56 /* YearIcon.png in Resources */,
 				6A2B54301826621100B6BB56 /* LikeButtonPressed.png in Resources */,
 				6A2B545018266B9900B6BB56 /* HeadBoxYou@2x.png in Resources */,
 				6A2B544F18266B9900B6BB56 /* HeadBoxYou.png in Resources */,
 				6A2B53F1182653CD00B6BB56 /* Main.storyboard in Resources */,
 				6A2B54391826621100B6BB56 /* PokemonFightHeadline@2x.png in Resources */,
+				2869976918267D46002990A0 /* original_tetris.jpg in Resources */,
 				6A2B543D1826621100B6BB56 /* YearIcon@2x.png in Resources */,
 				6A2B54351826621100B6BB56 /* ListBackground@2x.png in Resources */,
 				6A2B54361826621100B6BB56 /* PlayIcon.png in Resources */,
 				6A2B542F1826621100B6BB56 /* LikeButtonBackground@2x.png in Resources */,
+				2869976B18267D4E002990A0 /* tetris_Gameboy.jpg in Resources */,
+				2869976518267C61002990A0 /* furby_1998.jpg in Resources */,
+				2869976318267B63002990A0 /* firestone_intro_80er_90er.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -647,6 +683,7 @@
 				6A2B5411182653CD00B6BB56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A2B5412182653CD00B6BB56 /* Build configuration list for PBXNativeTarget "RememberTests" */ = {
 			isa = XCConfigurationList;
@@ -655,6 +692,7 @@
 				6A2B5414182653CD00B6BB56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
