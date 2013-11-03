@@ -239,7 +239,7 @@
                                 @"locationLong" : @0.0f,
                                 @"headline" : @"Kraftwerk - Taschenrechner"};
     
-    NSDictionary *media6Dict1 = @{@"fileName": @"computerwelt_kraftwerk_1981.mp3",
+    NSDictionary *media6Dict1 = @{@"fileName": @"computerwelt_kraftwerk_1981.jpg",
                                  @"mediaId" : @61 };
     
     NSDictionary *media6Dict = @{@"fileName": @"Kraftwerk_Taschenrechner_1987.mp3",
@@ -262,7 +262,7 @@
                                 @"headline" : @"The rubiks cube",
                                 @"contentText" : @"Spending hours and hours on it..."};
     
-    NSDictionary *media7Dict = @{@"fileName": @"rubiks_cube.jpg",
+    NSDictionary *media7Dict = @{@"fileName": @"rubiks_cube_80er.jpg",
                                  @"mediaId" : @7 };
     
     Post *post7 = [Post postWithDict:post7Dict inManagedObjectContext:[self managedObjectContext]];
@@ -289,7 +289,7 @@
     
     NSDictionary *post9Dict = @{@"postId": @9,
                                 @"range" : @"everyone",
-                                @"year" : @"1990's",
+                                @"year" : @"1984's",
                                 @"isLiked" : @NO,
                                 @"type" : @"image",
                                 @"locationLat" : @0.0f,
@@ -304,6 +304,27 @@
     
     [post9 addMediaObject:media9];
 
+    NSDictionary *post10Dict = @{@"postId": @10,
+                                @"range" : @"everyone",
+                                @"year" : @"1999",
+                                @"isLiked" : @NO,
+                                @"type" : @"sound",
+                                @"locationLat" : @0.0f,
+                                @"locationLong" : @0.0f,
+                                @"headline" : @"Star Wars"};
+    
+    NSDictionary *media10Dict = @{@"fileName": @"starwars_theme_1999.mp3",
+                                 @"mediaId" : @10 };
+    
+    NSDictionary *media10Dict1 = @{@"fileName": @"todesstern_1999.gif",
+                                  @"mediaId" : @101 };
+    
+    Post *post10 = [Post postWithDict:post10Dict inManagedObjectContext:[self managedObjectContext]];
+    Media *media10 = [Media mediaWithDict:media10Dict inManagedObjectContext:[self managedObjectContext]];
+    Media *media101 = [Media mediaWithDict:media10Dict1 inManagedObjectContext:[self managedObjectContext]];
+    
+    [post10 addMediaObject:media10];
+    [post10 addMediaObject:media101];
     
 }
 
