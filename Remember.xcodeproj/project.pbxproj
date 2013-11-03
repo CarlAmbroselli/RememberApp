@@ -72,6 +72,11 @@
 		6A2B546D1826739D00B6BB56 /* Post+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B546C1826739D00B6BB56 /* Post+Create.m */; };
 		6A2B5470182674DE00B6BB56 /* Media+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B546F182674DE00B6BB56 /* Media+Create.m */; };
 		6A2B5479182679E300B6BB56 /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B5478182679E300B6BB56 /* CoreDataTableViewController.m */; };
+		6A81C7F91826916800BDA65A /* CMImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A81C7F01826916800BDA65A /* CMImageCell.m */; };
+		6A81C7FB1826916800BDA65A /* CMSound2Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A81C7F41826916800BDA65A /* CMSound2Cell.m */; };
+		6A81C7FC1826916800BDA65A /* CMSoundCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A81C7F61826916800BDA65A /* CMSoundCell.m */; };
+		6A81C7FD1826916800BDA65A /* CMVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A81C7F81826916800BDA65A /* CMVideoCell.m */; };
+		6A81C8001826919900BDA65A /* CMCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A81C7FF1826919900BDA65A /* CMCustomCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +97,7 @@
 		2869976A18267D4E002990A0 /* tetris_Gameboy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tetris_Gameboy.jpg; sourceTree = "<group>"; };
 		2869976C18267EAC002990A0 /* blue_eyes_white_dragon_1996.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blue_eyes_white_dragon_1996.jpg; sourceTree = "<group>"; };
 		2869976E18268064002990A0 /* Kraftwerk_Taschenrechner_1987.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Kraftwerk_Taschenrechner_1987.mp3; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		286997701826839C002990A0 /* rubiks_cube_80er.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rubiks_cube_80er.jpg; sourceTree = "<group>"; };
 		2869977218268453002990A0 /* tamagotchi_90er.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tamagotchi_90er.jpeg; sourceTree = "<group>"; };
 		2869977418268A6C002990A0 /* ninjaTutles_1984.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ninjaTutles_1984.jpg; sourceTree = "<group>"; };
@@ -99,6 +105,8 @@
 		2869977818269201002990A0 /* starwars_theme_1999.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = starwars_theme_1999.mp3; sourceTree = "<group>"; };
 		2869977A18269219002990A0 /* todesstern_1999.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = todesstern_1999.gif; sourceTree = "<group>"; };
 		2869977C18269486002990A0 /* pokemonBattleSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pokemonBattleSound.mp3; sourceTree = "<group>"; };
+=======
+>>>>>>> 887d89a3d937592f9305b8cfb452a3d77e538839
 		6A2B53DA182653CD00B6BB56 /* Remember.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Remember.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A2B53DD182653CD00B6BB56 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6A2B53DF182653CD00B6BB56 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -165,6 +173,16 @@
 		6A2B546F182674DE00B6BB56 /* Media+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Media+Create.m"; sourceTree = "<group>"; };
 		6A2B5477182679E300B6BB56 /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
 		6A2B5478182679E300B6BB56 /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		6A81C7EF1826916800BDA65A /* CMImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMImageCell.h; sourceTree = "<group>"; };
+		6A81C7F01826916800BDA65A /* CMImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMImageCell.m; sourceTree = "<group>"; };
+		6A81C7F31826916800BDA65A /* CMSound2Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSound2Cell.h; sourceTree = "<group>"; };
+		6A81C7F41826916800BDA65A /* CMSound2Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSound2Cell.m; sourceTree = "<group>"; };
+		6A81C7F51826916800BDA65A /* CMSoundCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSoundCell.h; sourceTree = "<group>"; };
+		6A81C7F61826916800BDA65A /* CMSoundCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSoundCell.m; sourceTree = "<group>"; };
+		6A81C7F71826916800BDA65A /* CMVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMVideoCell.h; sourceTree = "<group>"; };
+		6A81C7F81826916800BDA65A /* CMVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMVideoCell.m; sourceTree = "<group>"; };
+		6A81C7FE1826919900BDA65A /* CMCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMCustomCell.h; sourceTree = "<group>"; };
+		6A81C7FF1826919900BDA65A /* CMCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMCustomCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,18 +213,20 @@
 		2869975F1826797C002990A0 /* Media */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				2869977C18269486002990A0 /* pokemonBattleSound.mp3 */,
 				2869977A18269219002990A0 /* todesstern_1999.gif */,
 				2869977818269201002990A0 /* starwars_theme_1999.mp3 */,
 				2869977618268E03002990A0 /* computerwelt_kraftwerk_1981.jpg */,
 				2869977418268A6C002990A0 /* ninjaTutles_1984.jpg */,
 				286997701826839C002990A0 /* rubiks_cube_80er.jpg */,
+=======
+>>>>>>> 887d89a3d937592f9305b8cfb452a3d77e538839
 				2869976E18268064002990A0 /* Kraftwerk_Taschenrechner_1987.mp3 */,
 				2869976C18267EAC002990A0 /* blue_eyes_white_dragon_1996.jpg */,
 				2869976A18267D4E002990A0 /* tetris_Gameboy.jpg */,
 				2869976818267D46002990A0 /* original_tetris.jpg */,
 				2869976618267D2F002990A0 /* tetris_sound_1984.mp3 */,
-				2869977218268453002990A0 /* tamagotchi_90er.jpeg */,
 				2869976418267C61002990A0 /* furby_1998.jpg */,
 				2869976218267B63002990A0 /* firestone_intro_80er_90er.mp4 */,
 			);
@@ -259,6 +279,16 @@
 				6A2B543F1826633800B6BB56 /* CMMainlistViewController.m */,
 				6A2B5441182664C500B6BB56 /* CMRememberCell.h */,
 				6A2B5442182664C500B6BB56 /* CMRememberCell.m */,
+				6A81C7FE1826919900BDA65A /* CMCustomCell.h */,
+				6A81C7FF1826919900BDA65A /* CMCustomCell.m */,
+				6A81C7EF1826916800BDA65A /* CMImageCell.h */,
+				6A81C7F01826916800BDA65A /* CMImageCell.m */,
+				6A81C7F31826916800BDA65A /* CMSound2Cell.h */,
+				6A81C7F41826916800BDA65A /* CMSound2Cell.m */,
+				6A81C7F51826916800BDA65A /* CMSoundCell.h */,
+				6A81C7F61826916800BDA65A /* CMSoundCell.m */,
+				6A81C7F71826916800BDA65A /* CMVideoCell.h */,
+				6A81C7F81826916800BDA65A /* CMVideoCell.m */,
 				6A2B53F5182653CD00B6BB56 /* CMSecondViewController.h */,
 				6A2B53F6182653CD00B6BB56 /* CMSecondViewController.m */,
 				6A2B53F8182653CD00B6BB56 /* Images.xcassets */,
@@ -438,7 +468,6 @@
 			files = (
 				6A2B53F9182653CD00B6BB56 /* Images.xcassets in Resources */,
 				6A2B543A1826621100B6BB56 /* PokemonScreen.png in Resources */,
-				2869977318268453002990A0 /* tamagotchi_90er.jpeg in Resources */,
 				6A2B543B1826621100B6BB56 /* PokemonScreen@2x.png in Resources */,
 				6A2B542A1826621100B6BB56 /* Background.png in Resources */,
 				6A2B54381826621100B6BB56 /* PokemonFightHeadline.png in Resources */,
@@ -466,12 +495,9 @@
 				6A2B54301826621100B6BB56 /* LikeButtonPressed.png in Resources */,
 				6A2B545018266B9900B6BB56 /* HeadBoxYou@2x.png in Resources */,
 				6A2B544F18266B9900B6BB56 /* HeadBoxYou.png in Resources */,
-				2869977718268E03002990A0 /* computerwelt_kraftwerk_1981.jpg in Resources */,
 				6A2B53F1182653CD00B6BB56 /* Main.storyboard in Resources */,
 				6A2B54391826621100B6BB56 /* PokemonFightHeadline@2x.png in Resources */,
-				2869977518268A6C002990A0 /* ninjaTutles_1984.jpg in Resources */,
 				2869976918267D46002990A0 /* original_tetris.jpg in Resources */,
-				286997711826839C002990A0 /* rubiks_cube_80er.jpg in Resources */,
 				6A2B543D1826621100B6BB56 /* YearIcon@2x.png in Resources */,
 				6A2B54351826621100B6BB56 /* ListBackground@2x.png in Resources */,
 				6A2B54361826621100B6BB56 /* PlayIcon.png in Resources */,
@@ -497,8 +523,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A81C7FC1826916800BDA65A /* CMSoundCell.m in Sources */,
 				6A2B5443182664C500B6BB56 /* CMRememberCell.m in Sources */,
+				6A81C7F91826916800BDA65A /* CMImageCell.m in Sources */,
 				6A2B54401826633800B6BB56 /* CMMainlistViewController.m in Sources */,
+				6A81C7FB1826916800BDA65A /* CMSound2Cell.m in Sources */,
 				6A2B545618266D6C00B6BB56 /* Database.m in Sources */,
 				6A2B53EE182653CD00B6BB56 /* CMAppDelegate.m in Sources */,
 				6A2B54601826734E00B6BB56 /* Post.m in Sources */,
@@ -508,8 +537,10 @@
 				6A2B5479182679E300B6BB56 /* CoreDataTableViewController.m in Sources */,
 				6A2B545C18266F5E00B6BB56 /* SoundManager.m in Sources */,
 				6A2B53EA182653CD00B6BB56 /* main.m in Sources */,
+				6A81C8001826919900BDA65A /* CMCustomCell.m in Sources */,
 				6A2B5470182674DE00B6BB56 /* Media+Create.m in Sources */,
 				6A2B545318266D4800B6BB56 /* Model.xcdatamodeld in Sources */,
+				6A81C7FD1826916800BDA65A /* CMVideoCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
