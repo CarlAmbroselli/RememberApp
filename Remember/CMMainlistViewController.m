@@ -9,6 +9,11 @@
 #import "CMMainlistViewController.h"
 #import "CMRememberCell.h"
 #import "Database.h"
+#import "CMSoundCell.h"
+#import "CMSound2Cell.h"
+#import "CMImageCell.h"
+#import "CMCustomCell.h"
+#import "CMVideoCell.h"
 
 @interface CMMainlistViewController ()
 
@@ -59,10 +64,46 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"rememberCell";
-    CMRememberCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    if (cell == nil) {
-        cell = [[CMRememberCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+    Post *post = [self.fetchedResultsController objectAtIndexPath:indexPath];
+    
+    CMRememberCell *cell = nil;
+    
+    if([post.type isEqualToString:@"sound"]){
+        NSString *CellIdentifier = @"soundCell";
+        cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+        if (cell == nil) {
+            cell = [[CMSoundCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        }
+    } else if([post.type isEqualToString:@"sound2"]){
+        NSString *CellIdentifier = @"sound2Cell";
+        cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+        if (cell == nil) {
+            cell = [[CMSound2Cell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        }
+    } else if([post.type isEqualToString:@"image"]){
+        NSString *CellIdentifier = @"imageCell";
+        cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+        if (cell == nil) {
+            cell = [[CMImageCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        }
+    } else if([post.type isEqualToString:@"video"]){
+        NSString *CellIdentifier = @"videoCell";
+        cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+        if (cell == nil) {
+            cell = [[CMVideoCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        }
+    } else if([post.type isEqualToString:@"custom"]){
+        NSString *CellIdentifier = @"customCell";
+        cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+        if (cell == nil) {
+            cell = [[CMCustomCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        }
+    } else {
+        static NSString *CellIdentifier = @"imageCell";
+        cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+        if (cell == nil) {
+            cell = [[CMImageCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        }
     }
     
     cell.post = [self.fetchedResultsController objectAtIndexPath:indexPath];
@@ -72,7 +113,7 @@
 
 -(float)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 296;
+    return 179;
 }
 
 /*

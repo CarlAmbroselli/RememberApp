@@ -32,9 +32,7 @@
     self.titleLabel.text = post.headline;
 }
 
-- (IBAction)soundButtonPressed:(id)sender {
-}
-
 - (IBAction)likeButtonPressed:(UIButton *)sender {
+    sender.selected = !sender.selected;
 }
 @end
